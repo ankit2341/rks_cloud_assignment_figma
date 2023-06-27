@@ -12,6 +12,7 @@
 .navbar_child_1 {
   width: 50%;
   height: 100%;
+  color: #151515;
   display: flex;
   align-items: center;
   justify-content: left;
@@ -28,18 +29,18 @@
 }
 .navbar_tag {
   border: none;
-  background: lightblue;
+  background: #e0f2fe;
   padding: 5px 8px;
   font-size: x-small;
-  color: blue;
+  color: #2656da;
   text-transform: capitalize;
   border-radius: 10px;
   margin-left: 10px;
   filter: none;
 }
 .user_avatar {
-  background-color: gray;
-  color: #fff;
+  background-color: #64738b;
+  color: #efeff6;
   font-weight: 400;
   display: flex;
   align-items: center;

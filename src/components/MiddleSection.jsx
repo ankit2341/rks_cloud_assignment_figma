@@ -3,11 +3,11 @@ import styles from "../styles/middleSection.module.css";
 
 const toolasSrcArray = [
   {
-    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/2560px-Amazon_Web_Services_Logo.svg.png",
+    src: "https://cdn.iconscout.com/icon/free/png-256/free-aws-1869025-1583149.png",
     alt: "AWS",
   },
   {
-    src: "https://static-00.iconduck.com/assets.00/google-cloud-icon-512x412-8rnz6wkz.png",
+    src: "https://coralogix.com/wp-content/uploads/2021/06/icon_cloud_192pt_clr-1.png",
     alt: "GCP",
   },
   {
@@ -16,7 +16,7 @@ const toolasSrcArray = [
   },
   {
     src: "https://cdn.iconscout.com/icon/free/png-256/free-salesforce-282298.png",
-    alt: "salesforce",
+    alt: "Salesforce",
   },
 ];
 
@@ -25,12 +25,7 @@ const MiddleSection = () => {
     <section className={styles.parent_section}>
       <div className={styles.section_child_1}>
         <h2 style={{ color: "gray" }}>Connect your Providers</h2>
-        <input
-          disabled
-          type="text"
-          placeholder="search tool"
-          className={styles.input}
-        />
+        <input type="text" placeholder="search tool" className={styles.input} />
 
         {/* ---------------logos----------------------- */}
         <div className={styles.tools_images}>
@@ -39,7 +34,7 @@ const MiddleSection = () => {
               <div>
                 <div
                   style={{
-                    padding: "10px 10px",
+                    padding: "5px 5px",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
@@ -58,6 +53,7 @@ const MiddleSection = () => {
                     textAlign: "center",
                     marginTop: "10px",
                     fontSize: "x-small",
+                    color: "#6b6d86",
                   }}
                 >
                   {el.alt}

@@ -42,8 +42,8 @@
   width: 35%;
   padding: 10px 30px;
   background: #f3f4f6;
-  border: none;
-  border-radius: 5px;
+  border: 1px solid #d2d3e0;
+  border-radius: 10px;
 }
 .other_info {
   width: 50%;
@@ -53,7 +53,7 @@
   justify-content: space-evenly;
   flex-direction: column;
   padding: 10px 10px;
-  background: #0b5ed714;
+  background: #f5f4fb;
   font-size: small;
 }
 .section_child_2_btn {
